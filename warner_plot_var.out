@@ -1,0 +1,29 @@
+./warner_plot_var.py:61: MatplotlibDeprecationWarning: shading='flat' when X and Y have the same dimensions as C is deprecated since 3.3.  Either specify the corners of the quadrilaterals with X and Y, or pass shading='auto', 'nearest' or 'gouraud', or set rcParams['pcolor.shading'].  This will become an error two minor releases later.
+  cs       = ax.pcolormesh   (x_axis,y_axis,var,norm=norm_fld,cmap=cmap)                                   # plot variable with pcolormesh
+./warner_plot_var.py:59: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  fig, ax  = plt.subplots    (figsize=(9,6))                                                               # plot fig with one subplot
+
+ Variables in the files:
+ *** grid_type -> has 0 dimensions
+ *** vert_cord -> has 0 dimensions
+ *** ioff -> has 0 dimensions
+ *** joff -> has 0 dimensions
+ *** dx -> has 0 dimensions
+ *** dy -> has 0 dimensions
+ *** xc -> has 1 dimensions
+ *** yc -> has 1 dimensions
+ *** sigma -> has 1 dimensions
+ *** bathymetry -> has 2 dimensions
+ *** time -> has 1 dimensions
+ *** elev -> has 3 dimensions
+ *** u -> has 3 dimensions
+ *** v -> has 3 dimensions
+ *** hcc -> has 3 dimensions
+ *** uu -> has 4 dimensions
+ *** vv -> has 4 dimensions
+ *** w -> has 4 dimensions
+ *** salt -> has 4 dimensions
+ *** sigma_t -> has 4 dimensions
+
+
+ Shape of the domain Nt, Nk, Ni =  113 41 201
